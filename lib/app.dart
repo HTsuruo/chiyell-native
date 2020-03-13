@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:chiyell_mobile/theme.dart';
 import 'package:flutter/material.dart';
 
@@ -70,7 +72,7 @@ class _MyHomePageState extends State<MyHomePage> {
         controller: _pageController,
         onPageChanged: onPageChanged,
         children: <Widget>[
-          Text('hogehoge'),
+          Text('あいうえおか聞くけど', style: TextStyle(fontFamily: 'GenJyuuGothic-L')),
           Text('hogehogegegheoge'),
           Text('momo'),
         ],
